@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="it">
+    <head>
+        <script
+	src="https://cdn.jsdelivr.net/gh/xTracky/static@latest/utm-handler.js"
+	data-token="810a49bf-f8f2-4beb-b39c-ff790bebc26d"
+>
+</script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xfhcbiieah");
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ita</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; min-height: 100vh; }
+    body { background-color: #fff; font-family: "Roboto", sans-serif; font-weight: 300; }
+
+    .page-wrap { display: flex; flex-direction: column; align-items: center; width: 100%; }
+
+    /* Título — barra vermelha */
+    .sec-title-1 {
+      width: 100%;
+      background-color: #e02020;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 28px 24px;
+    }
+    .sec-title-1 h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: clamp(24px, 4vw, 42px);
+      font-weight: 800;
+      text-align: center;
+      line-height: 1.2;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      color: #fff;
+    }
+
+    /* Subtítulo verde */
+    .sec-title-2 {
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 18px 24px 10px;
+    }
+    .sec-title-2 h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: clamp(20px, 2.4vw, 32px);
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.35;
+      text-transform: uppercase;
+      color: #23a455;
+    }
+
+    /* Imagem + Botão */
+    .sec-main {
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px 20px;
+      gap: 16px;
+    }
+    .main-img { width: 100%; max-width: 1024px; height: auto; display: block; }
+    .btn-wrap { width: 100%; max-width: 1024px; display: flex; justify-content: center; }
+
+    .elementor-button {
+      display: inline-block;
+      width: 100%;
+      background-color: #23a455;
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+      font-size: clamp(15px, 2.2vw, 20px);
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 16px 28px;
+      border-radius: 25px !important;
+      position: relative;
+      overflow: hidden;
+      animation: btnPulse 2s ease-in-out infinite;
+    }
+    @keyframes btnPulse {
+      0%, 100% {
+        transform: scale(0.97);
+        box-shadow: 0px 0px 16px 2px rgba(12,189,101,0.55), 0 4px 18px rgba(0,0,0,0.18);
+      }
+      50% {
+        transform: scale(1.02);
+        box-shadow: 0px 0px 32px 6px rgba(12,189,101,0.90), 0 8px 28px rgba(0,0,0,0.22);
+      }
+    }
+    .elementor-button::after {
+      content: "";
+      position: absolute;
+      top: -50%; left: -80%;
+      width: 50%; height: 200%;
+      background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.32) 50%, transparent 100%);
+      transform: skewX(-20deg);
+      animation: shimmerBtn 3s ease-in-out infinite;
+      border-radius: inherit;
+      pointer-events: none;
+    }
+    @keyframes shimmerBtn {
+      0%   { left: -80%;  opacity: 0; }
+      15%  { opacity: 1; }
+      55%  { left: 130%; opacity: 0; }
+      100% { left: 130%; opacity: 0; }
+    }
+    .elementor-button-text { position: relative; z-index: 1; }
+
+    /* Selos + Footer */
+    .sec-bottom {
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px 20px;
+      gap: 14px;
+    }
+    .bottom-img { width: 100%; max-width: 768px; height: auto; display: block; }
+    .footer-text {
+      font-family: "Roboto", sans-serif;
+      font-size: clamp(11px, 1.5vw, 14px);
+      font-weight: 400;
+      color: #555;
+      text-align: center;
+      line-height: 1.8;
+      padding-bottom: 16px;
+    }
+    .footer-text a { color: #333; text-decoration: underline; }
+    .footer-text a:hover { color: #000; }
+
+    @media (max-width: 767px) {
+      .sec-title-1 { padding: 22px 14px; }
+      .sec-title-2 { padding: 14px 14px 8px; }
+      .sec-main    { padding: 8px 10px 16px; gap: 12px; }
+      .sec-bottom  { padding: 8px 10px 16px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <div class="sec-title-1">
+    <h2>Accedi subito alle risposte di cui hai bisogno.</h2>
+  </div>
+
+  <div class="sec-title-2">
+    <h2>Funziona in soli 3 semplici e veloci passaggi.</h2>
+  </div>
+
+  <div class="sec-main">
+    <img class="main-img" fetchpriority="high" decoding="async" src="images/img1.webp" alt="">
+    <div class="btn-wrap">
+      <a class="elementor-button" href="https://locchiochetuttovede.online/affairita01/">
+        <span class="elementor-button-content-wrapper">
+          <span class="elementor-button-text">👉 VOGLIO MONITORARE ORA</span>
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <div class="sec-bottom">
+    <img class="bottom-img" decoding="async" src="images/img2.webp" alt="">
+    <div class="footer-text">
+      © 2026 Tutti i diritti riservati.<br><br>
+      <a href="#">Informativa sulla privacy</a> | <a href="#">Termini di utilizzo</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
+
+</body></html>
